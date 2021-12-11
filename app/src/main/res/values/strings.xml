@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RazMobPril_PR28</string>
+    <string name="activ2Left">LeftActivity</string>
+    <string name="activ3right">RightActivity</string>
+    <string name="what_is_lorem_ipsum">What is Lorem Ipsum?</string>
+    <string name="lorem1">Lorem Ipsum is simply dummy text of the printing and typesetting industry...like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="why_do_we_use_it">Why do we use it?</string>
+    <string name="lorem2">Lorem Ipsum is simply dummy text of the printing and typesetting industry...like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="where_can_i_get_some">Where can I get some?</string>
+    <string name="there3">There are many variations of passages of Lorem Ipsum available ... or non-characteristic words etc.</string>
+    <string name="textview">TextView</string>
+    <string name="textview1">Контейнер ScrollView предназначен для создания прокрутки для такого интерфейса, все элементы которого одномоментно не могут поместиться на экране устройства. ScrollView может вмещать только один элемент, поэтому если мы хотим разместить несколько элементов, то их надо поместить в какой-нибудь контейнер.</string>
+    <string name="textview2">Так как в ScrollView можно поместить только один элемент, то все TextView заключены в LinearLayout. И если площадь экрана будет недостаточной, чтобы поместить все содержимое LinearLayout, то станет доступной прокрутка:</string>
+    <string name="textview3">Создание ScrollView программно в коде MainActivity:</string>
+    <string name="textview4">На Android Studio если вы перетащите ScrollView (Или HorizontalScrollView) в интерфейс, он автоматически будет добавлен в подкомпонент это LinearLayout, вы можете удалить данный подкомпонент, чтобы использовать дургой подкомпонент. Вам не стоит использовать ScrollView с ListView или GridView, так как оба этих компонента имеют собственную готовую вертикальну полосу прокрутки. 2- Пример ScrollView. В данном примере вертикальный LinearLayout имеет много подкомпонентов, ему нужно пространство с достаточной высотой.</string>
+    <string name="textview5">Скроллинг по своей сути представляет собой жест, при котором пользователь дотрагивается пальцем к экрану, передвигает его не отрывая, и отпускает. Для того чтоб иметь возможность обрабатывать события связанные с тач-скрином, нужно переопределить метод onTouchEvent. Метод принимает один параметр типа MotionEvent и должен возвратить true в случае обработки события. Через этот метод можно реализовать поддержку любого жеста, включая скроллинг. </string>
+</resources>
